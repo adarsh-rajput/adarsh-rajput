@@ -1,7 +1,7 @@
 - 👋 Hi, I’m Adarsh Rajput (Engineering Lead - Computer Science)
-- 👀 I’m interested in games and innovation
-- 🌱 I’m currently learning node/aws
-- 💞️ I’m looking to collaborate on noble ideas
+- 👀 Personal Interests are games and innovation
+- 🌱 I’m currently working on node, angular, aws.
+- 💞️ I’m looking to collaborate on noble ideas.
 - 📫 How to reach me fb.com/ideal.rajput, @IdealRajput
 
 <!---
