@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Callback Debugger - Ideal</title>
+    <script>
+      (function(){
+        function init() {
+          var access_token = /access_token=([^&]+)/.exec(window.location.hash)[1];
+          textarea = document.getElementById('token');
+          textarea.value = decodeURIComponent(access_token);
+          textarea.focus();
+        }
+      
+        window.addEventListener('load', init);
+      })();
+    </script>
+  </head>
+  <body>
+    <p>Ondrive App Access Token:</p>
+    <textarea id='od_token' readonly="readonly" style="height: 20em; width:50%"></textarea>
+  </body>
+</html>
