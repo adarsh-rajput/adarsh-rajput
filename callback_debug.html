@@ -6,7 +6,7 @@
       (function(){
         function init() {
           var access_token = /access_token=([^&]+)/.exec(window.location.hash)[1];
-          textarea = document.getElementById('token');
+          var textarea = document.getElementById('od_token');
           textarea.value = decodeURIComponent(access_token);
           textarea.focus();
         }
